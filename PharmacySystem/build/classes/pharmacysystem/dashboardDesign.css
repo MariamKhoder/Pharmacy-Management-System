@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 14, 2025, 1:40:35 PM
+    Author     : MariamReda
+*/
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .8px .4px;
+}
+.nav-fork{
+    -fx-background-color: linear-gradient(to bottom right,#7a85a1,#a0e4ee);
+    
+}
+.button{
+    -fx-background-color: linear-gradient(to bottom right,#7a85a1,#a0e4ee);
+    -fx-text-fill: #000;
+    -fx-cursor: hand;
+    -fx-background-radius: 2px;
+}
+.sign-out{
+    -fx-cursor: hand;
+    -fx-background-radius: 20px;   
+}
+.sign-out:hover{
+    -fx-background-color: linear-gradient(to bottom right, #a5b0c9, #c7f2ff);
+}
+.button:hover{
+    -fx-background-color: linear-gradient(to bottom right, #a5b0c9, #c7f2ff);
+}
+.white-page{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+.shadow{
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,.5), 6,0,0,0);
+}
+
+.texfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-border-width: .4px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Tahoma";
+}
+.texfield:focused{
+    -fx-border-color:linear-gradient(to bottom right,#7a85a1,#a0e4ee);
+    -fx-border-width: 1.4px;
+    
+}
+.table-view{
+    -fx-border-color:linear-gradient(to bottom right,#7a85a1,#a0e4ee);
+    -fx-border-width: 3px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: #000;
+}
+
+.active-nav-btn {
+    -fx-background-color: #4A6380;
+    -fx-border-color: #5DADE2; 
+    -fx-border-width: 0 0 0 4px; 
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-weight: bold; 
+}
+
+/* ========== DARK MODE ========== */
+
+.root.dark {
+    -fx-background-color: #1e1e1e;
+}
+
+.dark .white-page {
+    -fx-background-color: #2b2b2b;
+}
+
+.dark Label {
+    -fx-text-fill: #eaeaea;
+}
+
+.dark Button {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.dark TextField,
+.dark ComboBox,
+.dark ScrollPane {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.dark TableView {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.dark .table-view .column-header-background {
+    -fx-background-color: #2b2b2b;
+}
+
+.dark .table-row-cell {
+    -fx-background-color: #3a3a3a;
+}
